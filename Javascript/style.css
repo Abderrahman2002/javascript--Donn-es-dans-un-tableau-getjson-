@@ -1,0 +1,15 @@
+.animated-card {
+    transition: transform 0.3s ease;
+}
+
+.animated-card:hover {
+    transform: scale(1.05); /* Agrandit la carte au survol */
+}
+
+.animated-image {
+    transition: opacity 0.3s ease;
+}
+
+.animated-image:hover {
+    opacity: 0.8; /* Diminue l'opacité de l'image au survol */
+}
